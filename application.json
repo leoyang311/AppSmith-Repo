@@ -3,6 +3,14 @@
     {
       "id": "Page1",
       "isDefault": true
+    },
+    {
+      "id": "Job Openings",
+      "isDefault": false
+    },
+    {
+      "id": "Page3",
+      "isDefault": false
     }
   ],
   "viewMode": false,

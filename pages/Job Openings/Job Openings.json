@@ -1,60 +1,54 @@
 {
   "unpublishedPage": {
-    "name": "Page1",
-    "slug": "page1",
+    "name": "Job Openings",
+    "slug": "job-openings",
     "layouts": [
       {
         "viewMode": false,
         "dsl": {
           "widgetName": "MainContainer",
           "backgroundColor": "none",
-          "rightColumn": 1174,
+          "rightColumn": 1224,
           "snapColumns": 64,
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 860,
+          "bottomRow": 530,
           "containerStyle": "none",
-          "snapRows": 125,
+          "snapRows": 105,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 87,
-          "minHeight": 900,
+          "minHeight": 1070,
           "parentColumnSpace": 1,
-          "dynamicTriggerPathList": [],
           "dynamicBindingPathList": [],
           "leftColumn": 0
         },
         "layoutOnLoadActions": [
           [
             {
-              "id": "Page1_SelectQuery",
-              "name": "SelectQuery",
+              "id": "Job Openings_All_Job_Openings",
+              "name": "All_Job_Openings",
               "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "(data_table.pageNo - 1) * data_table.pageSize",
-                "data_table.pageSize",
-                "data_table.searchText || \"\"",
-                "data_table.sortOrder.column || 'id'",
-                "data_table.sortOrder.order || 'ASC'"
-              ],
+              "pluginType": "API",
+              "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
             }
           ]
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Page1",
+        "id": "Job Openings",
         "deleted": false,
         "policies": [],
         "userPermissions": []
       }
     ],
     "userPermissions": [],
-    "policies": []
+    "policies": [],
+    "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "65676cf8742ae03eb0b793a5_65676cf8742ae03eb0b793a7"
+  "gitSyncId": "656e0cd6ba67be5c3e31c6a0_656e0cf9ba67be5c3e31c6a8"
 }
