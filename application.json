@@ -23,6 +23,10 @@
     {
       "id": "Personas",
       "isDefault": false
+    },
+    {
+      "id": "Feedback",
+      "isDefault": false
     }
   ],
   "viewMode": false,
