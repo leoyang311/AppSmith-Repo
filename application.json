@@ -1,11 +1,11 @@
 {
   "pages": [
     {
-      "id": "Page1",
+      "id": "Past_Coop",
       "isDefault": true
     },
     {
-      "id": "Job Openings",
+      "id": "Feedback_page",
       "isDefault": false
     },
     {

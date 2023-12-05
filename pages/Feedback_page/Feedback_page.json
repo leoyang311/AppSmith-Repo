@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Page3",
-    "slug": "page3",
+    "name": "Feedback_page",
+    "slug": "feedback-page",
     "layouts": [
       {
         "viewMode": false,
@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1060,
+          "bottomRow": 380,
           "containerStyle": "none",
           "snapRows": 105,
           "parentRowSpace": 1,
@@ -28,15 +28,16 @@
         "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Page3",
+        "id": "Feedback_page",
         "deleted": false,
         "policies": [],
         "userPermissions": []
       }
     ],
     "userPermissions": [],
-    "policies": []
+    "policies": [],
+    "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "656e0cd6ba67be5c3e31c6a0_656e0cfcba67be5c3e31c6ab"
+  "gitSyncId": "656e0cd6ba67be5c3e31c6a0_656e0cf9ba67be5c3e31c6a8"
 }
