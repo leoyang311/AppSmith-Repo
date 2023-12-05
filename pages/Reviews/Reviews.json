@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Job Openings",
-    "slug": "job-openings",
+    "name": "Reviews",
+    "slug": "reviews",
     "layouts": [
       {
         "viewMode": false,
@@ -13,33 +13,21 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 560,
+          "bottomRow": 770,
           "containerStyle": "none",
-          "snapRows": 105,
+          "snapRows": 76,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 87,
-          "minHeight": 1070,
+          "minHeight": 780,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0
         },
-        "layoutOnLoadActions": [
-          [
-            {
-              "id": "Job Openings_All_Job_Openings",
-              "name": "All_Job_Openings",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            }
-          ]
-        ],
-        "layoutOnLoadActionErrors": [],
+        "layoutOnLoadActions": [],
         "validOnPageLoadActions": true,
-        "id": "Job Openings",
+        "id": "Reviews",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -50,5 +38,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "656e0cd6ba67be5c3e31c6a0_656e0cf9ba67be5c3e31c6a8"
+  "gitSyncId": "656e0cd6ba67be5c3e31c6a0_656e6cc10217df63215d3740"
 }

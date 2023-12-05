@@ -3,7 +3,7 @@
     "borderColor": "#E0DEDE",
     "isVisibleDownload": true,
     "iconSVG": "/static/media/icon.e6911f8bb94dc6c4a102a74740c41763.svg",
-    "topRow": 25,
+    "topRow": 28,
     "isSortable": true,
     "type": "TABLE_WIDGET_V2",
     "inlineEditingSaveOption": "ROW_LEVEL",
@@ -16,7 +16,8 @@
         {"key": "primaryColumns.Difficulty.computedValue"},
         {"key": "primaryColumns.GradeYearRequirement.computedValue"},
         {"key": "primaryColumns.Name.computedValue"},
-        {"key": "primaryColumns.RoleDescription.computedValue"}
+        {"key": "primaryColumns.RoleDescription.computedValue"},
+        {"key": "primaryColumns.JobID.computedValue"}
     ],
     "needsHeightForContent": true,
     "leftColumn": 12,
@@ -58,20 +59,21 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1701711254337,
+    "columnUpdatedAt": 1701735282733,
     "defaultSelectedRowIndices": [0],
     "mobileBottomRow": 53,
-    "widgetName": "Table1",
+    "widgetName": "Job_Openings_Table",
     "defaultPageSize": 0,
     "columnOrder": [
         "Difficulty",
         "GradeYearRequirement",
         "Name",
-        "RoleDescription"
+        "RoleDescription",
+        "JobID"
     ],
     "dynamicPropertyPathList": [],
     "displayName": "Table",
-    "bottomRow": 53,
+    "bottomRow": 56,
     "columnWidthMap": {},
     "parentRowSpace": 10,
     "hideCard": false,
@@ -81,7 +83,7 @@
     "borderWidth": "1",
     "primaryColumns": {
         "GradeYearRequirement": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"GradeYearRequirement\"]))}}",
+            "computedValue": "{{Job_Openings_Table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"GradeYearRequirement\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "GradeYearRequirement",
@@ -112,7 +114,7 @@
             "verticalAlignment": "CENTER"
         },
         "Difficulty": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Difficulty\"]))}}",
+            "computedValue": "{{Job_Openings_Table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Difficulty\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "Difficulty",
@@ -143,7 +145,7 @@
             "verticalAlignment": "CENTER"
         },
         "RoleDescription": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"RoleDescription\"]))}}",
+            "computedValue": "{{Job_Openings_Table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"RoleDescription\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "RoleDescription",
@@ -173,8 +175,42 @@
             "currencyCode": "USD",
             "verticalAlignment": "CENTER"
         },
+        "JobID": {
+            "computedValue": "{{Job_Openings_Table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"JobID\"]))}}",
+            "isEditable": false,
+            "notation": "standard",
+            "alias": "JobID",
+            "enableSort": true,
+            "isSaveVisible": true,
+            "id": "JobID",
+            "isDisabled": false,
+            "allowSameOptionsInNewRow": true,
+            "validation": {},
+            "isCellVisible": true,
+            "isDerived": false,
+            "textSize": "0.875rem",
+            "allowCellWrapping": false,
+            "index": 2,
+            "isDiscardVisible": true,
+            "isVisible": false,
+            "label": "JobID",
+            "fontStyle": "",
+            "textColor": "",
+            "columnType": "number",
+            "thousandSeparator": true,
+            "horizontalAlignment": "LEFT",
+            "isCellEditable": false,
+            "decimals": 0,
+            "width": 150,
+            "enableFilter": true,
+            "sticky": "",
+            "originalId": "JobID",
+            "currencyCode": "USD",
+            "cellBackground": "",
+            "verticalAlignment": "CENTER"
+        },
         "Name": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Name\"]))}}",
+            "computedValue": "{{Job_Openings_Table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Name\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "Name",
@@ -205,11 +241,12 @@
             "verticalAlignment": "CENTER"
         }
     },
-    "onRowSelected": "{{navigateTo('Page3', {}, 'SAME_WINDOW');}}",
+    "onRowSelected": "{{navigateTo('Job Details', {\n  \"CompanyPageID\": Job_Openings_Table.selectedRow.CompanyPageID\n}, 'SAME_WINDOW');}}",
+    "defaultSearchText": "",
     "key": "kxzp15wdiu",
     "canFreezeColumn": true,
     "isDeprecated": false,
-    "rightColumn": 46,
+    "rightColumn": 60,
     "textSize": "0.875rem",
     "widgetId": "3s62hbl9h3",
     "minWidth": 450,

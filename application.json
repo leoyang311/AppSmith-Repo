@@ -9,7 +9,15 @@
       "isDefault": false
     },
     {
-      "id": "Page3",
+      "id": "Job Details",
+      "isDefault": false
+    },
+    {
+      "id": "Home",
+      "isDefault": false
+    },
+    {
+      "id": "Reviews",
       "isDefault": false
     }
   ],
@@ -23,6 +31,9 @@
   },
   "color": "#FFDEDE",
   "icon": "chat",
+  "unpublishedAppLayout": {
+    "type": "FLUID"
+  },
   "unpublishedCustomJSLibs": [],
   "publishedCustomJSLibs": [],
   "evaluationVersion": 2,
