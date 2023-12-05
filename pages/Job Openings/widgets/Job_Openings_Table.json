@@ -3,7 +3,7 @@
     "borderColor": "#E0DEDE",
     "isVisibleDownload": true,
     "iconSVG": "/static/media/icon.e6911f8bb94dc6c4a102a74740c41763.svg",
-    "topRow": 28,
+    "topRow": 30,
     "isSortable": true,
     "type": "TABLE_WIDGET_V2",
     "inlineEditingSaveOption": "ROW_LEVEL",
@@ -73,7 +73,7 @@
     ],
     "dynamicPropertyPathList": [],
     "displayName": "Table",
-    "bottomRow": 56,
+    "bottomRow": 58,
     "columnWidthMap": {},
     "parentRowSpace": 10,
     "hideCard": false,
@@ -241,7 +241,7 @@
             "verticalAlignment": "CENTER"
         }
     },
-    "onRowSelected": "{{navigateTo('Reviews', {\n\t\"JobID\": Job_Openings_Table.selectedRow.JobID\n}, 'SAME_WINDOW');}}",
+    "onRowSelected": "{{navigateTo('Reviews', {\n  \"JobID\": Job_Openings_Table.selectedRow.JobID,\n  \"ReviewURLCompletion\": \"web:4000/r/reviews/job_id/\" + Job_Openings_Table.selectedRow.JobID\n}, 'SAME_WINDOW');}}",
     "defaultSearchText": "",
     "key": "kxzp15wdiu",
     "canFreezeColumn": true,

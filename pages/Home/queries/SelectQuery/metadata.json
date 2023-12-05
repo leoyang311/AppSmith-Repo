@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "postgres-plugin",
   "unpublishedAction": {
-    "name": "DeleteQuery",
+    "name": "SelectQuery",
     "datasource": {
       "name": "Users",
       "pluginId": "postgres-plugin",
@@ -13,32 +13,36 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Page1",
+    "pageId": "Home",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "DELETE FROM public.\"users\"\n  WHERE \"id\" = {{data_table.triggeredRow.id}};",
+      "body": "SELECT * FROM public.\"users\"\nWHERE \"name\" ilike '%{{data_table.searchText || \"\"}}%'\nORDER BY \"{{data_table.sortOrder.column || 'id'}}\" {{data_table.sortOrder.order || 'ASC'}}\nLIMIT {{data_table.pageSize}}\nOFFSET {{(data_table.pageNo - 1) * data_table.pageSize}};",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
-          "value": true
+          "value": false
         }
       ]
     },
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "isValid": true,
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "data_table.triggeredRow.id"
+      "(data_table.pageNo - 1) * data_table.pageSize",
+      "data_table.pageSize",
+      "data_table.searchText || \"\"",
+      "data_table.sortOrder.column || 'id'",
+      "data_table.sortOrder.order || 'ASC'"
     ],
-    "userSetOnLoad": false,
+    "userSetOnLoad": true,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Page1_DeleteQuery",
+  "id": "Home_SelectQuery",
   "deleted": false,
-  "gitSyncId": "65676cf8742ae03eb0b793a5_65676d04742ae03eb0b793ad"
+  "gitSyncId": "65676cf8742ae03eb0b793a5_65676d04742ae03eb0b793aa"
 }
