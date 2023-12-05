@@ -1,45 +1,52 @@
 {
   "unpublishedPage": {
-    "name": "Job Openings",
-    "slug": "job-openings",
+    "name": "Kevin Home",
+    "slug": "kevin-home",
     "layouts": [
       {
         "viewMode": false,
         "dsl": {
           "widgetName": "MainContainer",
           "backgroundColor": "none",
-          "rightColumn": 1224,
+          "rightColumn": 1174,
           "snapColumns": 64,
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 580,
+          "bottomRow": 940,
           "containerStyle": "none",
-          "snapRows": 105,
+          "snapRows": 125,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 87,
-          "minHeight": 1070,
+          "minHeight": 900,
           "parentColumnSpace": 1,
+          "dynamicTriggerPathList": [],
           "dynamicBindingPathList": [],
           "leftColumn": 0
         },
         "layoutOnLoadActions": [
           [
             {
-              "id": "Job Openings_All_Job_Openings",
-              "name": "All_Job_Openings",
+              "id": "Kevin Home_SelectQuery",
+              "name": "SelectQuery",
               "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [],
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "(data_table.pageNo - 1) * data_table.pageSize",
+                "data_table.pageSize",
+                "data_table.searchText || \"\"",
+                "data_table.sortOrder.column || 'id'",
+                "data_table.sortOrder.order || 'ASC'"
+              ],
               "timeoutInMillisecond": 10000
             }
           ]
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Job Openings",
+        "id": "Kevin Home",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -50,5 +57,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "656e0cd6ba67be5c3e31c6a0_656e0cf9ba67be5c3e31c6a8"
+  "gitSyncId": "65676cf8742ae03eb0b793a5_65676cf8742ae03eb0b793a7"
 }
