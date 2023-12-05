@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "All_Job_Openings",
+    "name": "disputes",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/jo/job_openings"
+        "url": "web:4000/d/disputes"
       },
       "invalids": [],
       "messages": [],
@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Job Openings",
+    "pageId": "Moderation Dashboard Jordan",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -46,9 +46,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2023-12-04T17:32:11Z"
+    "createdAt": "2023-12-05T00:21:49Z"
   },
-  "id": "Job Openings_All_Job_Openings",
+  "id": "Moderation Dashboard Jordan_disputes",
   "deleted": false,
-  "gitSyncId": "656e0cd6ba67be5c3e31c6a0_656e0d1bba67be5c3e31c6ad"
+  "gitSyncId": "656e114508ebad1f399a9a68_656e6d1db4db55773e94de17"
 }

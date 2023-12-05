@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "Api1",
+    "name": "Analytics",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/jo/job_openings/id"
+        "url": "web:4000/a/analytics"
       },
       "invalids": [],
       "messages": [],
@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Job Openings",
+    "pageId": "Moderation Dashboard Jordan",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -35,7 +35,7 @@
         "apiContentType": "none"
       }
     },
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
@@ -44,9 +44,10 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": []
+    "userPermissions": [],
+    "createdAt": "2023-12-05T00:43:21Z"
   },
-  "id": "Job Openings_Api1",
+  "id": "Moderation Dashboard Jordan_Analytics",
   "deleted": false,
-  "gitSyncId": "656e0cd6ba67be5c3e31c6a0_656e0d85ba67be5c3e31c6af"
+  "gitSyncId": "656e114508ebad1f399a9a68_656e7229b4db55773e94de20"
 }
