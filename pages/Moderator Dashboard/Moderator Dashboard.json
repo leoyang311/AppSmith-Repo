@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 640,
+          "bottomRow": 960,
           "containerStyle": "none",
           "snapRows": 58,
           "parentRowSpace": 1,
@@ -38,6 +38,14 @@
             {
               "id": "Moderator Dashboard_Api2",
               "name": "Api2",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Moderator Dashboard_Api3",
+              "name": "Api3",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],

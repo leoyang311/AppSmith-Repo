@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 380,
+          "bottomRow": 990,
           "containerStyle": "none",
           "snapRows": 58,
           "parentRowSpace": 1,
@@ -30,6 +30,14 @@
             {
               "id": "Analytics_Api1",
               "name": "Api1",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Analytics_Api2",
+              "name": "Api2",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],

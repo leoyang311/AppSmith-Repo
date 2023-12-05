@@ -13,7 +13,10 @@
     "mobileRightColumn": 15,
     "animateLoading": true,
     "parentColumnSpace": 11.796875,
-    "dynamicTriggerPathList": [],
+    "dynamicTriggerPathList": [
+        {"key": "menuItems.menuItem1.onClick"},
+        {"key": "menuItems.menuItem2.onClick"}
+    ],
     "leftColumn": 42,
     "dynamicBindingPathList": [
         {"key": "menuColor"},
@@ -27,9 +30,10 @@
     "widgetId": "cl131tesv5",
     "menuItems": {
         "menuItem1": {
+            "onClick": "{{navigateTo('Job Openings', {}, 'SAME_WINDOW');}}",
             "widgetId": "",
             "index": 0,
-            "label": "First Menu Item",
+            "label": "Job Openings",
             "id": "menuItem1",
             "isVisible": true,
             "isDisabled": false
@@ -43,9 +47,10 @@
             "isDisabled": false
         },
         "menuItem2": {
+            "onClick": "{{navigateTo('Reviews', {}, 'SAME_WINDOW');}}",
             "widgetId": "",
             "index": 1,
-            "label": "Second Menu Item",
+            "label": "Reviews",
             "id": "menuItem2",
             "isVisible": true,
             "isDisabled": false
