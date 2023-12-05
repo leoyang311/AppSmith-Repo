@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Reviews",
-    "slug": "reviews",
+    "name": "Moderator Dashboard",
+    "slug": "moderator-dashboard",
     "layouts": [
       {
         "viewMode": false,
@@ -13,14 +13,14 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 610,
+          "bottomRow": 640,
           "containerStyle": "none",
-          "snapRows": 76,
+          "snapRows": 58,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 87,
-          "minHeight": 780,
+          "minHeight": 600,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0
@@ -28,20 +28,26 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Reviews_Review",
-              "name": "Review",
+              "id": "Moderator Dashboard_Api1",
+              "name": "Api1",
               "confirmBeforeExecute": false,
               "pluginType": "API",
-              "jsonPathKeys": [
-                "appsmith.URL.queryParams.ReviewURLCompletion"
-              ],
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Moderator Dashboard_Api2",
+              "name": "Api2",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
             }
           ]
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Reviews",
+        "id": "Moderator Dashboard",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -52,5 +58,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "656e0cd6ba67be5c3e31c6a0_656e6cc10217df63215d3740"
+  "gitSyncId": "656e87a5b4db55773e94de3e_656e9d83b4db55773e94de50"
 }

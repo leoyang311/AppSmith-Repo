@@ -11,6 +11,18 @@
     {
       "id": "Reviews",
       "isDefault": false
+    },
+    {
+      "id": "Moderator Dashboard",
+      "isDefault": false
+    },
+    {
+      "id": "Analytics",
+      "isDefault": false
+    },
+    {
+      "id": "Personas",
+      "isDefault": false
     }
   ],
   "viewMode": false,

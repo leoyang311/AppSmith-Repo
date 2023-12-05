@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Reviews",
-    "slug": "reviews",
+    "name": "Analytics",
+    "slug": "analytics",
     "layouts": [
       {
         "viewMode": false,
@@ -13,14 +13,14 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 610,
+          "bottomRow": 380,
           "containerStyle": "none",
-          "snapRows": 76,
+          "snapRows": 58,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 87,
-          "minHeight": 780,
+          "minHeight": 600,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0
@@ -28,20 +28,18 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Reviews_Review",
-              "name": "Review",
+              "id": "Analytics_Api1",
+              "name": "Api1",
               "confirmBeforeExecute": false,
               "pluginType": "API",
-              "jsonPathKeys": [
-                "appsmith.URL.queryParams.ReviewURLCompletion"
-              ],
+              "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
             }
           ]
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Reviews",
+        "id": "Analytics",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -52,5 +50,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "656e0cd6ba67be5c3e31c6a0_656e6cc10217df63215d3740"
+  "gitSyncId": "656e87a5b4db55773e94de3e_656e9eddb4db55773e94de57"
 }
