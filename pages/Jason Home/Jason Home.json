@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Personas",
-    "slug": "personas",
+    "name": "Jason Home",
+    "slug": "jason-home",
     "layouts": [
       {
         "viewMode": false,
@@ -13,14 +13,14 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 380,
+          "bottomRow": 1180,
           "containerStyle": "none",
-          "snapRows": 58,
+          "snapRows": 76,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 87,
-          "minHeight": 600,
+          "minHeight": 780,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0
@@ -28,7 +28,7 @@
         "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Personas",
+        "id": "Jason Home",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -39,5 +39,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "656e87a5b4db55773e94de3e_656e9fe6b4db55773e94de5c"
+  "gitSyncId": "656f790c9b58d637076fb822_656f792b9b58d637076fb841"
 }

@@ -8,42 +8,24 @@
         "dsl": {
           "widgetName": "MainContainer",
           "backgroundColor": "none",
-          "rightColumn": 1174,
+          "rightColumn": 1224,
           "snapColumns": 64,
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 860,
+          "bottomRow": 380,
           "containerStyle": "none",
-          "snapRows": 125,
+          "snapRows": 58,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 87,
-          "minHeight": 900,
+          "minHeight": 600,
           "parentColumnSpace": 1,
-          "dynamicTriggerPathList": [],
           "dynamicBindingPathList": [],
           "leftColumn": 0
         },
-        "layoutOnLoadActions": [
-          [
-            {
-              "id": "Home_SelectQuery",
-              "name": "SelectQuery",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "(data_table.pageNo - 1) * data_table.pageSize",
-                "data_table.pageSize",
-                "data_table.searchText || \"\"",
-                "data_table.sortOrder.column || 'id'",
-                "data_table.sortOrder.order || 'ASC'"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ]
-        ],
+        "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
         "id": "Home",
@@ -57,5 +39,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "65676cf8742ae03eb0b793a5_65676cf8742ae03eb0b793a7"
+  "gitSyncId": "656e87a5b4db55773e94de3e_656e9fe6b4db55773e94de5c"
 }

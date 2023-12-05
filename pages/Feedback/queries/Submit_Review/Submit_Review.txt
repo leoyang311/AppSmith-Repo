@@ -1,0 +1,3 @@
+{{
+{ "JobID":appsmith.URL.queryParams.JobID, "CompanyPageID":appsmith.URL.queryParams.CompanyPageID, "StudentID":51, 		"Comment":Feedback.text, "DifficultyRating":Rating.value, "FirstOrSecondCoop": CoopNumber.text}
+}}
