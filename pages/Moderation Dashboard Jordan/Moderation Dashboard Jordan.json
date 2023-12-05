@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1400,
+          "bottomRow": 1100,
           "containerStyle": "none",
           "snapRows": 105,
           "parentRowSpace": 1,
@@ -27,14 +27,6 @@
         },
         "layoutOnLoadActions": [
           [
-            {
-              "id": "Moderation Dashboard Jordan_Analytics",
-              "name": "Analytics",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            },
             {
               "id": "Moderation Dashboard Jordan_Guidlines",
               "name": "Guidlines",

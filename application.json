@@ -7,6 +7,14 @@
     {
       "id": "Moderation Dashboard Jordan",
       "isDefault": false
+    },
+    {
+      "id": "Analytics",
+      "isDefault": false
+    },
+    {
+      "id": "Welcome Page",
+      "isDefault": false
     }
   ],
   "viewMode": false,

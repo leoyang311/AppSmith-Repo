@@ -2,7 +2,7 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "Analytics",
+    "name": "Api1",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Moderation Dashboard Jordan",
+    "pageId": "Analytics",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -35,7 +35,7 @@
         "apiContentType": "none"
       }
     },
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
@@ -45,9 +45,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2023-12-05T00:43:21Z"
+    "createdAt": "2023-12-05T01:29:11Z"
   },
-  "id": "Moderation Dashboard Jordan_Analytics",
+  "id": "Analytics_Api1",
   "deleted": false,
-  "gitSyncId": "656e114508ebad1f399a9a68_656e7229b4db55773e94de20"
+  "gitSyncId": "656e114508ebad1f399a9a68_656e7ce7b4db55773e94de27"
 }
