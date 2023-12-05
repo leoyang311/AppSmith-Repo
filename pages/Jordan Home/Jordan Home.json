@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Jason Home",
-    "slug": "jason-home",
+    "name": "Jordan Home",
+    "slug": "jordan-home",
     "layouts": [
       {
         "viewMode": false,
@@ -15,12 +15,12 @@
           "topRow": 0,
           "bottomRow": 850,
           "containerStyle": "none",
-          "snapRows": 76,
+          "snapRows": 58,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 87,
-          "minHeight": 780,
+          "minHeight": 600,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0
@@ -28,7 +28,7 @@
         "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Jason Home",
+        "id": "Jordan Home",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -39,5 +39,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "656f790c9b58d637076fb822_656f792b9b58d637076fb841"
+  "gitSyncId": "656e07fc28241d17bc57eded_656f97fb9a730d525f9e52b9"
 }

@@ -3,7 +3,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 28,
     "widgetName": "Button2",
-    "onClick": "{{navigateTo('Personas', {}, 'SAME_WINDOW');}}",
+    "onClick": "{{navigateTo('Home', {}, 'SAME_WINDOW');}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",

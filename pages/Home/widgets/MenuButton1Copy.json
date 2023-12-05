@@ -13,7 +13,10 @@
     "mobileRightColumn": 15,
     "animateLoading": true,
     "parentColumnSpace": 11.796875,
-    "dynamicTriggerPathList": [],
+    "dynamicTriggerPathList": [
+        {"key": "menuItems.menuItem1.onClick"},
+        {"key": "menuItems.menuItem2.onClick"}
+    ],
     "leftColumn": 4,
     "dynamicBindingPathList": [
         {"key": "menuColor"},
@@ -27,9 +30,10 @@
     "widgetId": "0wp9cilmxv",
     "menuItems": {
         "menuItem1": {
+            "onClick": "{{navigateTo('Feedback', {}, 'SAME_WINDOW');}}",
             "widgetId": "",
             "index": 0,
-            "label": "First Menu Item",
+            "label": "Feedback",
             "id": "menuItem1",
             "isVisible": true,
             "isDisabled": false
@@ -43,9 +47,10 @@
             "isDisabled": false
         },
         "menuItem2": {
+            "onClick": "{{navigateTo('Job Selector For Review', {}, 'SAME_WINDOW');}}",
             "widgetId": "",
             "index": 1,
-            "label": "Second Menu Item",
+            "label": "Job Selector for Review",
             "id": "menuItem2",
             "isVisible": true,
             "isDisabled": false
