@@ -59,7 +59,7 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1701735282733,
+    "columnUpdatedAt": 1701738391279,
     "defaultSelectedRowIndices": [0],
     "mobileBottomRow": 53,
     "widgetName": "Job_Openings_Table",
@@ -192,7 +192,7 @@
             "allowCellWrapping": false,
             "index": 2,
             "isDiscardVisible": true,
-            "isVisible": false,
+            "isVisible": true,
             "label": "JobID",
             "fontStyle": "",
             "textColor": "",
@@ -241,7 +241,7 @@
             "verticalAlignment": "CENTER"
         }
     },
-    "onRowSelected": "{{navigateTo('Job Details', {\n  \"CompanyPageID\": Job_Openings_Table.selectedRow.CompanyPageID\n}, 'SAME_WINDOW');}}",
+    "onRowSelected": "{{navigateTo('Reviews', {\n\t\"JobID\": Job_Openings_Table.selectedRow.JobID\n}, 'SAME_WINDOW');}}",
     "defaultSearchText": "",
     "key": "kxzp15wdiu",
     "canFreezeColumn": true,
