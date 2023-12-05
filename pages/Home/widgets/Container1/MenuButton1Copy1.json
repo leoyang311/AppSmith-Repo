@@ -2,11 +2,11 @@
     "isCompact": false,
     "boxShadow": "none",
     "mobileBottomRow": 8,
-    "widgetName": "MenuButton1",
+    "widgetName": "MenuButton1Copy1",
     "displayName": "Menu button",
     "iconSVG": "/static/media/icon.631848e88e7a3db05f6015f22835e81b.svg",
-    "topRow": 22,
-    "bottomRow": 26,
+    "topRow": 25,
+    "bottomRow": 29,
     "parentRowSpace": 10,
     "type": "MENU_BUTTON_WIDGET",
     "hideCard": false,
@@ -17,7 +17,7 @@
         {"key": "menuItems.menuItem1.onClick"},
         {"key": "menuItems.menuItem2.onClick"}
     ],
-    "leftColumn": 23,
+    "leftColumn": 46,
     "dynamicBindingPathList": [
         {"key": "menuColor"},
         {"key": "borderRadius"}
@@ -25,15 +25,15 @@
     "isDisabled": false,
     "key": "3078b6orai",
     "isDeprecated": false,
-    "rightColumn": 38,
+    "rightColumn": 61,
     "menuVariant": "PRIMARY",
-    "widgetId": "w73mgk11yf",
+    "widgetId": "cl131tesv5",
     "menuItems": {
         "menuItem1": {
-            "onClick": "{{navigateTo('Moderator Dashboard', {}, 'SAME_WINDOW');}}",
+            "onClick": "{{navigateTo('Job Openings', {}, 'SAME_WINDOW');}}",
             "widgetId": "",
             "index": 0,
-            "label": "Moderator Dashboard",
+            "label": "Job Openings",
             "id": "menuItem1",
             "isVisible": true,
             "isDisabled": false
@@ -47,19 +47,19 @@
             "isDisabled": false
         },
         "menuItem2": {
-            "onClick": "{{navigateTo('Analytics', {}, 'SAME_WINDOW');}}",
+            "onClick": "{{navigateTo('Reviews', {}, 'SAME_WINDOW');}}",
             "widgetId": "",
             "index": 1,
-            "label": "Analytics",
+            "label": "Reviews",
             "id": "menuItem2",
             "isVisible": true,
             "isDisabled": false
         }
     },
     "isVisible": true,
-    "label": "Jordan",
+    "label": "Kevin",
     "version": 1,
-    "parentId": "0",
+    "parentId": "9kct5o5x46",
     "tags": ["Buttons"],
     "renderMode": "CANVAS",
     "isLoading": false,
