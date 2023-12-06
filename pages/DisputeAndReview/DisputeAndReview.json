@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Analytics",
-    "slug": "analytics",
+    "name": "DisputeAndReview",
+    "slug": "disputeandreview",
     "layouts": [
       {
         "viewMode": false,
@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 650,
+          "bottomRow": 380,
           "containerStyle": "none",
           "snapRows": 58,
           "parentRowSpace": 1,
@@ -28,26 +28,20 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Analytics_Api1",
+              "id": "DisputeAndReview_Api1",
               "name": "Api1",
               "confirmBeforeExecute": false,
               "pluginType": "API",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Analytics_Api2",
-              "name": "Api2",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [],
+              "jsonPathKeys": [
+                "appsmith.URL.queryParams.DisputeReviewURLCompletion"
+              ],
               "timeoutInMillisecond": 10000
             }
           ]
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Analytics",
+        "id": "DisputeAndReview",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -58,5 +52,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "656e87a5b4db55773e94de3e_656e9eddb4db55773e94de57"
+  "gitSyncId": "656f99559a730d525f9e52bb_656fb8389a730d525f9e5301"
 }

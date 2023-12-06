@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Analytics",
-    "slug": "analytics",
+    "name": "ApproveOrDeny",
+    "slug": "approveordeny",
     "layouts": [
       {
         "viewMode": false,
@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 650,
+          "bottomRow": 380,
           "containerStyle": "none",
           "snapRows": 58,
           "parentRowSpace": 1,
@@ -25,29 +25,10 @@
           "dynamicBindingPathList": [],
           "leftColumn": 0
         },
-        "layoutOnLoadActions": [
-          [
-            {
-              "id": "Analytics_Api1",
-              "name": "Api1",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Analytics_Api2",
-              "name": "Api2",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            }
-          ]
-        ],
+        "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Analytics",
+        "id": "ApproveOrDeny",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -58,5 +39,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "656e87a5b4db55773e94de3e_656e9eddb4db55773e94de57"
+  "gitSyncId": "656f99559a730d525f9e52bb_656fa8869a730d525f9e52f9"
 }

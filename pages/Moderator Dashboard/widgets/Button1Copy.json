@@ -3,7 +3,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 24,
     "widgetName": "Button1Copy",
-    "onClick": "{{navigateTo('Home', {}, 'SAME_WINDOW');}}",
+    "onClick": "{{navigateTo('Jordan Home', {}, 'SAME_WINDOW');}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",

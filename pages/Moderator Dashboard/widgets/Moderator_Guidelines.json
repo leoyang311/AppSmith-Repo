@@ -60,7 +60,7 @@
     "columnUpdatedAt": 1701787618921,
     "defaultSelectedRowIndices": [0],
     "mobileBottomRow": 99,
-    "widgetName": "Table3",
+    "widgetName": "Moderator_Guidelines",
     "defaultPageSize": 0,
     "columnOrder": [
         "Content",
@@ -79,7 +79,7 @@
     "borderWidth": "1",
     "primaryColumns": {
         "UpdateDate": {
-            "computedValue": "{{Table3.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"UpdateDate\"]))}}",
+            "computedValue": "{{Moderator_Guidelines.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"UpdateDate\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "UpdateDate",
@@ -110,7 +110,7 @@
             "verticalAlignment": "CENTER"
         },
         "Content": {
-            "computedValue": "{{Table3.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Content\"]))}}",
+            "computedValue": "{{Moderator_Guidelines.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Content\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "Content",
@@ -141,7 +141,7 @@
             "verticalAlignment": "CENTER"
         },
         "GuidelineID": {
-            "computedValue": "{{Table3.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"GuidelineID\"]))}}",
+            "computedValue": "{{Moderator_Guidelines.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"GuidelineID\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "GuidelineID",

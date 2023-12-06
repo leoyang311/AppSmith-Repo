@@ -63,7 +63,7 @@
     "columnUpdatedAt": 1701787176855,
     "defaultSelectedRowIndices": [0],
     "mobileBottomRow": 65,
-    "widgetName": "Table2",
+    "widgetName": "User_Interaction",
     "defaultPageSize": 0,
     "columnOrder": [
         "Content",
@@ -85,7 +85,7 @@
     "borderWidth": "1",
     "primaryColumns": {
         "Status": {
-            "computedValue": "{{Table2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Status\"]))}}",
+            "computedValue": "{{User_Interaction.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Status\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "Status",
@@ -116,7 +116,7 @@
             "verticalAlignment": "CENTER"
         },
         "InteractionID": {
-            "computedValue": "{{Table2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"InteractionID\"]))}}",
+            "computedValue": "{{User_Interaction.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"InteractionID\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "InteractionID",
@@ -147,7 +147,7 @@
             "verticalAlignment": "CENTER"
         },
         "UserTimestamp": {
-            "computedValue": "{{Table2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"UserTimestamp\"]))}}",
+            "computedValue": "{{User_Interaction.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"UserTimestamp\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "UserTimestamp",
@@ -178,7 +178,7 @@
             "verticalAlignment": "CENTER"
         },
         "Content": {
-            "computedValue": "{{Table2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Content\"]))}}",
+            "computedValue": "{{User_Interaction.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Content\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "Content",
@@ -209,7 +209,7 @@
             "verticalAlignment": "CENTER"
         },
         "ModeratorId": {
-            "computedValue": "{{Table2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"ModeratorId\"]))}}",
+            "computedValue": "{{User_Interaction.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"ModeratorId\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "ModeratorId",
@@ -240,7 +240,7 @@
             "verticalAlignment": "CENTER"
         },
         "StudentID": {
-            "computedValue": "{{Table2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"StudentID\"]))}}",
+            "computedValue": "{{User_Interaction.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"StudentID\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "StudentID",

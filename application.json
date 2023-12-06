@@ -39,6 +39,14 @@
     {
       "id": "Jordan Home",
       "isDefault": false
+    },
+    {
+      "id": "ApproveOrDeny",
+      "isDefault": false
+    },
+    {
+      "id": "DisputeAndReview",
+      "isDefault": false
     }
   ],
   "viewMode": false,
