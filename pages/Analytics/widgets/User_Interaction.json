@@ -18,7 +18,14 @@
         {"key": "primaryColumns.ModeratorId.computedValue"},
         {"key": "primaryColumns.Status.computedValue"},
         {"key": "primaryColumns.StudentID.computedValue"},
-        {"key": "primaryColumns.UserTimestamp.computedValue"}
+        {"key": "primaryColumns.UserTimestamp.computedValue"},
+        {"key": "cellBackground"},
+        {"key": "primaryColumns.Status.cellBackground"},
+        {"key": "primaryColumns.InteractionID.cellBackground"},
+        {"key": "primaryColumns.UserTimestamp.cellBackground"},
+        {"key": "primaryColumns.Content.cellBackground"},
+        {"key": "primaryColumns.ModeratorId.cellBackground"},
+        {"key": "primaryColumns.StudentID.cellBackground"}
     ],
     "needsHeightForContent": true,
     "leftColumn": 0,
@@ -30,6 +37,7 @@
     "isVisible": true,
     "enableClientSideSearch": true,
     "version": 2,
+    "textColor": "#e0dede",
     "totalRecordsCount": 0,
     "tags": [
         "Suggested",
@@ -60,7 +68,7 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1701787176855,
+    "columnUpdatedAt": 1701839075969,
     "defaultSelectedRowIndices": [0],
     "mobileBottomRow": 65,
     "widgetName": "User_Interaction",
@@ -103,6 +111,7 @@
             "isDiscardVisible": true,
             "isVisible": true,
             "label": "Status",
+            "textColor": "#e0dede",
             "columnType": "number",
             "thousandSeparator": true,
             "horizontalAlignment": "LEFT",
@@ -113,6 +122,7 @@
             "sticky": "",
             "originalId": "Status",
             "currencyCode": "USD",
+            "cellBackground": "{{appsmith.theme.colors.backgroundColor}}",
             "verticalAlignment": "CENTER"
         },
         "InteractionID": {
@@ -132,8 +142,9 @@
             "allowCellWrapping": false,
             "index": 1,
             "isDiscardVisible": true,
-            "isVisible": true,
+            "isVisible": false,
             "label": "InteractionID",
+            "textColor": "#e0dede",
             "columnType": "number",
             "thousandSeparator": true,
             "horizontalAlignment": "LEFT",
@@ -144,6 +155,7 @@
             "sticky": "",
             "originalId": "InteractionID",
             "currencyCode": "USD",
+            "cellBackground": "{{appsmith.theme.colors.backgroundColor}}",
             "verticalAlignment": "CENTER"
         },
         "UserTimestamp": {
@@ -165,6 +177,7 @@
             "isDiscardVisible": true,
             "isVisible": true,
             "label": "UserTimestamp",
+            "textColor": "#e0dede",
             "columnType": "text",
             "thousandSeparator": true,
             "horizontalAlignment": "LEFT",
@@ -175,6 +188,7 @@
             "sticky": "",
             "originalId": "UserTimestamp",
             "currencyCode": "USD",
+            "cellBackground": "{{appsmith.theme.colors.backgroundColor}}",
             "verticalAlignment": "CENTER"
         },
         "Content": {
@@ -196,6 +210,7 @@
             "isDiscardVisible": true,
             "isVisible": true,
             "label": "Content",
+            "textColor": "#e0dede",
             "columnType": "text",
             "thousandSeparator": true,
             "horizontalAlignment": "LEFT",
@@ -206,6 +221,7 @@
             "sticky": "",
             "originalId": "Content",
             "currencyCode": "USD",
+            "cellBackground": "{{appsmith.theme.colors.backgroundColor}}",
             "verticalAlignment": "CENTER"
         },
         "ModeratorId": {
@@ -227,6 +243,7 @@
             "isDiscardVisible": true,
             "isVisible": true,
             "label": "ModeratorId",
+            "textColor": "#e0dede",
             "columnType": "number",
             "thousandSeparator": true,
             "horizontalAlignment": "LEFT",
@@ -237,6 +254,7 @@
             "sticky": "",
             "originalId": "ModeratorId",
             "currencyCode": "USD",
+            "cellBackground": "{{appsmith.theme.colors.backgroundColor}}",
             "verticalAlignment": "CENTER"
         },
         "StudentID": {
@@ -256,8 +274,9 @@
             "allowCellWrapping": false,
             "index": 4,
             "isDiscardVisible": true,
-            "isVisible": true,
+            "isVisible": false,
             "label": "StudentID",
+            "textColor": "#e0dede",
             "columnType": "number",
             "thousandSeparator": true,
             "horizontalAlignment": "LEFT",
@@ -268,6 +287,7 @@
             "sticky": "",
             "originalId": "StudentID",
             "currencyCode": "USD",
+            "cellBackground": "{{appsmith.theme.colors.backgroundColor}}",
             "verticalAlignment": "CENTER"
         }
     },
@@ -289,5 +309,6 @@
     "responsiveBehavior": "fill",
     "mobileLeftColumn": 0,
     "isVisiblePagination": true,
+    "cellBackground": "{{appsmith.theme.colors.backgroundColor}}",
     "verticalAlignment": "CENTER"
 }

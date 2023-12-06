@@ -3,7 +3,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 36,
     "widgetName": "Submit",
-    "onClick": "{{Submit_Review.run()}}",
+    "onClick": "{{Submit_Review.run({\n  \"Comment\": Feedback.text,\n  \"CoopNumber\": CoopNumber.text,\n  \"Rating\": Rating.value\n});\nnavigateTo('Reviews Jason', {}, 'SAME_WINDOW');}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",

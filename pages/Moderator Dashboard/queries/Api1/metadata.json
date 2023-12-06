@@ -36,7 +36,7 @@
         "apiContentType": "none"
       }
     },
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
@@ -46,7 +46,7 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2023-12-06T01:44:15Z"
+    "createdAt": "2023-12-06T04:00:26Z"
   },
   "id": "Moderator Dashboard_Api1",
   "deleted": false,

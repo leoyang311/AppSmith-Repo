@@ -3,7 +3,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 24,
     "widgetName": "Button1Copy",
-    "onClick": "{{navigateTo('Home', {}, 'SAME_WINDOW');}}",
+    "onClick": "{{navigateTo('Kevin Home', {}, 'SAME_WINDOW');}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
@@ -20,7 +20,7 @@
     "animateLoading": true,
     "parentColumnSpace": 15.5625,
     "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 15,
+    "leftColumn": 22,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},
         {"key": "borderRadius"}
@@ -29,7 +29,7 @@
     "isDisabled": false,
     "key": "6qtwy197rk",
     "isDeprecated": false,
-    "rightColumn": 26,
+    "rightColumn": 33,
     "isDefaultClickDisabled": true,
     "widgetId": "qa6efjv89e",
     "minWidth": 120,

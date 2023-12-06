@@ -45,6 +45,7 @@
     "parentColumnSpace": 15.5625,
     "dynamicTriggerPathList": [{"key": "onTextChanged"}],
     "labelPosition": "Top",
+    "labelTextColor": "#f4f4f5",
     "key": "xy7aromomf",
     "labelTextSize": "0.875rem",
     "onTextChanged": "{{clearStore();\nstoreValue('ChangedComment', Comment_Box.text);}}",
