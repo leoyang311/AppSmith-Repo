@@ -23,7 +23,7 @@
     "image": "",
     "isDeprecated": false,
     "rightColumn": 51,
-    "objectFit": "cover",
+    "objectFit": "contain",
     "widgetId": "4amrz7rdts",
     "isVisible": true,
     "version": 1,
