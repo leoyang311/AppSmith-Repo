@@ -47,6 +47,14 @@
     {
       "id": "DisputeAndReview",
       "isDefault": false
+    },
+    {
+      "id": "Modify",
+      "isDefault": false
+    },
+    {
+      "id": "Edit",
+      "isDefault": false
     }
   ],
   "viewMode": false,

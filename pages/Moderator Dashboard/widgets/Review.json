@@ -74,7 +74,7 @@
     "dynamicPropertyPathList": [],
     "displayName": "Table",
     "bottomRow": 28,
-    "columnWidthMap": {},
+    "columnWidthMap": {"Comment": 504},
     "parentRowSpace": 10,
     "hideCard": false,
     "mobileRightColumn": 17,
@@ -241,7 +241,7 @@
             "verticalAlignment": "CENTER"
         }
     },
-    "onRowSelected": "{{navigateTo('ApproveOrDeny', {\n  \"Review\": \"Comment: \" + Review.selectedRow.Comment + \" \" + \"Rating: \" + Review.selectedRow.DifficultyRating + \". \" + \"Co Op Number: \" + Review.selectedRow.FirstOrSecondCoop,\n  \"ReviewID\": Review.selectedRow.ReviewID\n}, 'SAME_WINDOW');}}",
+    "onRowSelected": "{{navigateTo('Modify', {\n  \"Comment\": Review.selectedRow.Comment,\n  \"Rating\": Review.selectedRow.DifficultyRating,\n  \"Co Op Number\": Review.selectedRow.FirstOrSecondCoop,\n  \"ReviewID\": Review.selectedRow.ReviewID\n}, 'SAME_WINDOW');}}",
     "key": "vr0iizhfo8",
     "canFreezeColumn": true,
     "isDeprecated": false,

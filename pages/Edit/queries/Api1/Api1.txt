@@ -1,0 +1,5 @@
+{{{
+    "DifficultyRating": appsmith.URL.queryParams.Rating,
+    "FirstOrSecondCoop": appsmith.URL.queryParams["Co Op Number"],
+    "Comment": appsmith.store.ChangedComment
+}}}
