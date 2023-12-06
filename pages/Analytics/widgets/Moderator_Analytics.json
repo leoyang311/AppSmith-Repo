@@ -28,6 +28,7 @@
     "isVisible": true,
     "enableClientSideSearch": true,
     "version": 2,
+    "textColor": "#e0dede",
     "totalRecordsCount": 0,
     "tags": [
         "Suggested",
@@ -99,6 +100,7 @@
             "isDiscardVisible": true,
             "isVisible": true,
             "label": "AnalyticsID",
+            "textColor": "#e0dede",
             "columnType": "number",
             "thousandSeparator": true,
             "horizontalAlignment": "LEFT",
@@ -109,6 +111,7 @@
             "sticky": "",
             "originalId": "AnalyticsID",
             "currencyCode": "USD",
+            "cellBackground": "#18181b",
             "verticalAlignment": "CENTER"
         },
         "TrendType": {
@@ -130,6 +133,7 @@
             "isDiscardVisible": true,
             "isVisible": true,
             "label": "TrendType",
+            "textColor": "#e0dede",
             "columnType": "text",
             "thousandSeparator": true,
             "horizontalAlignment": "LEFT",
@@ -140,6 +144,7 @@
             "sticky": "",
             "originalId": "TrendType",
             "currencyCode": "USD",
+            "cellBackground": "#18181b",
             "verticalAlignment": "CENTER"
         },
         "Data": {
@@ -161,6 +166,7 @@
             "isDiscardVisible": true,
             "isVisible": true,
             "label": "Data",
+            "textColor": "#e0dede",
             "columnType": "text",
             "thousandSeparator": true,
             "horizontalAlignment": "LEFT",
@@ -171,6 +177,7 @@
             "sticky": "",
             "originalId": "Data",
             "currencyCode": "USD",
+            "cellBackground": "#18181b",
             "verticalAlignment": "CENTER"
         },
         "EngagementScore": {
@@ -192,6 +199,7 @@
             "isDiscardVisible": true,
             "isVisible": true,
             "label": "EngagementScore",
+            "textColor": "#e0dede",
             "columnType": "number",
             "thousandSeparator": true,
             "horizontalAlignment": "LEFT",
@@ -202,6 +210,7 @@
             "sticky": "",
             "originalId": "EngagementScore",
             "currencyCode": "USD",
+            "cellBackground": "#18181b",
             "verticalAlignment": "CENTER"
         }
     },
@@ -223,5 +232,6 @@
     "responsiveBehavior": "fill",
     "mobileLeftColumn": 0,
     "isVisiblePagination": true,
+    "cellBackground": "#18181b",
     "verticalAlignment": "CENTER"
 }

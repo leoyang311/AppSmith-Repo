@@ -38,7 +38,7 @@
     "minWidth": 450,
     "isVisible": true,
     "fontStyle": "BOLD",
-    "textColor": "#231F20",
+    "textColor": "#f4f4f5",
     "version": 1,
     "parentId": "0",
     "tags": [
@@ -49,11 +49,11 @@
     "isLoading": false,
     "mobileTopRow": 18,
     "responsiveBehavior": "fill",
-    "originalTopRow": 18,
+    "originalTopRow": 19,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 16,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 22,
+    "originalBottomRow": 23,
     "fontSize": "1rem",
     "minDynamicHeight": 4
 }

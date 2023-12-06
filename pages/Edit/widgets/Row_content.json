@@ -23,12 +23,11 @@
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
-        {"key": "borderRadius"},
-        {"key": "text"}
+        {"key": "borderRadius"}
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Edit Comment: {{appsmith.store.ChangedComment}}",
+    "text": "Edit Comment:",
     "key": "8wpht70y5h",
     "isDeprecated": false,
     "rightColumn": 39,
@@ -38,7 +37,7 @@
     "minWidth": 450,
     "isVisible": true,
     "fontStyle": "BOLD",
-    "textColor": "#231F20",
+    "textColor": "#f4f4f5",
     "version": 1,
     "parentId": "0",
     "tags": [
