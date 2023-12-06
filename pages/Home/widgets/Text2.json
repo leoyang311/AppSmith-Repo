@@ -19,7 +19,7 @@
     "fontFamily": "Nunito Sans",
     "parentColumnSpace": 15.5625,
     "dynamicTriggerPathList": [],
-    "leftColumn": 29,
+    "leftColumn": 28,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "borderRadius"}
@@ -29,7 +29,7 @@
     "text": "Kevin",
     "key": "epqda3aazw",
     "isDeprecated": false,
-    "rightColumn": 35,
+    "rightColumn": 34,
     "textAlign": "CENTER",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "jg6gqc7emg",
