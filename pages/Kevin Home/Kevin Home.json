@@ -26,24 +26,7 @@
           "dynamicBindingPathList": [],
           "leftColumn": 0
         },
-        "layoutOnLoadActions": [
-          [
-            {
-              "id": "Kevin Home_SelectQuery",
-              "name": "SelectQuery",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "(data_table.pageNo - 1) * data_table.pageSize",
-                "data_table.pageSize",
-                "data_table.searchText || \"\"",
-                "data_table.sortOrder.column || 'id'",
-                "data_table.sortOrder.order || 'ASC'"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ]
-        ],
+        "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
         "id": "Kevin Home",

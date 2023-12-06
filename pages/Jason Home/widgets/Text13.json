@@ -8,7 +8,7 @@
         "paragraph",
         "label"
     ],
-    "topRow": 4,
+    "topRow": 3,
     "bottomRow": 8,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
@@ -16,13 +16,12 @@
     "mobileRightColumn": 23,
     "animateLoading": true,
     "overflow": "NONE",
-    "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+    "fontFamily": "System Default",
     "parentColumnSpace": 15.5625,
     "dynamicTriggerPathList": [],
-    "leftColumn": 5,
+    "leftColumn": 3,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
-        {"key": "fontFamily"},
         {"key": "borderRadius"}
     ],
     "shouldTruncate": false,
@@ -30,16 +29,16 @@
     "text": "Welcome Jason!",
     "key": "ukazxzwbbm",
     "isDeprecated": false,
-    "rightColumn": 32,
+    "rightColumn": 19,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "1y14ecxbyu",
     "minWidth": 450,
     "isVisible": true,
     "fontStyle": "BOLD",
-    "textColor": "#231F20",
+    "textColor": "white",
     "version": 1,
-    "parentId": "i09n8c96gz",
+    "parentId": "0",
     "tags": [
         "Suggested",
         "Content"
@@ -48,9 +47,11 @@
     "isLoading": false,
     "mobileTopRow": 9,
     "responsiveBehavior": "fill",
+    "originalTopRow": 3,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 7,
     "maxDynamicHeight": 9000,
-    "fontSize": "1rem",
+    "originalBottomRow": 8,
+    "fontSize": "1.875rem",
     "minDynamicHeight": 4
 }

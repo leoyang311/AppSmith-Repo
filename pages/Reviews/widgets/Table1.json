@@ -1,6 +1,6 @@
 {
     "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-    "borderColor": "#E0DEDE",
+    "borderColor": "#f4f4f5",
     "isVisibleDownload": true,
     "iconSVG": "/static/media/icon.e6911f8bb94dc6c4a102a74740c41763.svg",
     "topRow": 33,
@@ -29,6 +29,7 @@
     "isVisible": true,
     "enableClientSideSearch": true,
     "version": 2,
+    "textColor": "#f4f4f5",
     "totalRecordsCount": 0,
     "tags": [
         "Suggested",
@@ -59,7 +60,7 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1701836321640,
+    "columnUpdatedAt": 1701837791980,
     "defaultSelectedRowIndices": [0],
     "mobileBottomRow": 54,
     "widgetName": "Table1",
@@ -69,8 +70,7 @@
         "DifficultyRating",
         "FirstOrSecondCoop",
         "ReviewID",
-        "JobID",
-        "customColumn1"
+        "JobID"
     ],
     "dynamicPropertyPathList": [],
     "displayName": "Table",
@@ -102,6 +102,7 @@
             "isDiscardVisible": true,
             "isVisible": true,
             "label": "FirstOrSecondCoop",
+            "textColor": "#f4f4f5",
             "columnType": "text",
             "thousandSeparator": true,
             "horizontalAlignment": "LEFT",
@@ -112,6 +113,7 @@
             "sticky": "",
             "originalId": "FirstOrSecondCoop",
             "currencyCode": "USD",
+            "cellBackground": "#18181b",
             "verticalAlignment": "CENTER"
         },
         "Comment": {
@@ -133,6 +135,7 @@
             "isDiscardVisible": true,
             "isVisible": true,
             "label": "Comment",
+            "textColor": "#f4f4f5",
             "columnType": "text",
             "thousandSeparator": true,
             "horizontalAlignment": "LEFT",
@@ -143,6 +146,7 @@
             "sticky": "",
             "originalId": "Comment",
             "currencyCode": "USD",
+            "cellBackground": "#18181b",
             "verticalAlignment": "CENTER"
         },
         "DifficultyRating": {
@@ -164,6 +168,7 @@
             "isDiscardVisible": true,
             "isVisible": true,
             "label": "DifficultyRating",
+            "textColor": "#f4f4f5",
             "columnType": "number",
             "thousandSeparator": true,
             "horizontalAlignment": "LEFT",
@@ -174,39 +179,7 @@
             "sticky": "",
             "originalId": "DifficultyRating",
             "currencyCode": "USD",
-            "verticalAlignment": "CENTER"
-        },
-        "customColumn1": {
-            "computedValue": "",
-            "isEditable": false,
-            "notation": "standard",
-            "alias": "customColumn1",
-            "enableSort": true,
-            "isSaveVisible": true,
-            "id": "customColumn1",
-            "isDisabled": false,
-            "allowSameOptionsInNewRow": true,
-            "validation": {},
-            "isCellVisible": true,
-            "isDerived": true,
-            "textSize": "0.875rem",
-            "buttonStyle": "rgb(3, 179, 101)",
-            "allowCellWrapping": false,
-            "index": 5,
-            "isDiscardVisible": true,
-            "isVisible": true,
-            "label": "customColumn1",
-            "labelColor": "#FFFFFF",
-            "columnType": "text",
-            "thousandSeparator": true,
-            "horizontalAlignment": "LEFT",
-            "isCellEditable": false,
-            "decimals": 0,
-            "width": 150,
-            "enableFilter": true,
-            "sticky": "",
-            "originalId": "customColumn1",
-            "currencyCode": "USD",
+            "cellBackground": "#18181b",
             "verticalAlignment": "CENTER"
         },
         "ReviewID": {
@@ -226,8 +199,9 @@
             "allowCellWrapping": false,
             "index": 3,
             "isDiscardVisible": true,
-            "isVisible": false,
+            "isVisible": true,
             "label": "ReviewID",
+            "textColor": "#f4f4f5",
             "columnType": "number",
             "thousandSeparator": true,
             "horizontalAlignment": "LEFT",
@@ -238,6 +212,7 @@
             "sticky": "",
             "originalId": "ReviewID",
             "currencyCode": "USD",
+            "cellBackground": "#18181b",
             "verticalAlignment": "CENTER"
         },
         "JobID": {
@@ -257,10 +232,10 @@
             "allowCellWrapping": false,
             "index": 4,
             "isDiscardVisible": true,
-            "isVisible": true,
+            "isVisible": false,
             "label": "JobID",
             "fontStyle": "",
-            "textColor": "",
+            "textColor": "#f4f4f5",
             "columnType": "number",
             "thousandSeparator": true,
             "horizontalAlignment": "LEFT",
@@ -271,7 +246,7 @@
             "sticky": "",
             "originalId": "JobID",
             "currencyCode": "USD",
-            "cellBackground": "",
+            "cellBackground": "#18181b",
             "verticalAlignment": "CENTER"
         }
     },
@@ -294,5 +269,6 @@
     "responsiveBehavior": "fill",
     "mobileLeftColumn": 12,
     "isVisiblePagination": true,
+    "cellBackground": "#18181b",
     "verticalAlignment": "CENTER"
 }
