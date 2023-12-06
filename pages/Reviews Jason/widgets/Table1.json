@@ -20,7 +20,7 @@
         {"key": "primaryColumns.JobID.computedValue"}
     ],
     "needsHeightForContent": true,
-    "leftColumn": 15,
+    "leftColumn": 4,
     "delimiter": ",",
     "defaultSelectedRowIndex": 0,
     "flexVerticalAlignment": "start",
@@ -75,7 +75,11 @@
     "dynamicPropertyPathList": [],
     "displayName": "Table",
     "bottomRow": 61,
-    "columnWidthMap": {},
+    "columnWidthMap": {
+        "FirstOrSecondCoop": 174,
+        "Comment": 520,
+        "DifficultyRating": 155.99999999999997
+    },
     "parentRowSpace": 10,
     "hideCard": false,
     "mobileRightColumn": 46,
@@ -254,9 +258,9 @@
     "key": "cmd8rmtpcf",
     "canFreezeColumn": true,
     "isDeprecated": false,
-    "rightColumn": 52,
+    "rightColumn": 62,
     "textSize": "0.875rem",
-    "widgetId": "wj94byanfc",
+    "widgetId": "19u3j5h61d",
     "minWidth": 450,
     "tableData": "{{Review.data}}",
     "label": "Data",
