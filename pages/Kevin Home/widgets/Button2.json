@@ -20,7 +20,7 @@
     "animateLoading": true,
     "parentColumnSpace": 8.90380859375,
     "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 32,
+    "leftColumn": 29,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},
         {"key": "borderRadius"}
@@ -29,7 +29,7 @@
     "isDisabled": false,
     "key": "r51ge30hsi",
     "isDeprecated": false,
-    "rightColumn": 42,
+    "rightColumn": 39,
     "isDefaultClickDisabled": true,
     "widgetId": "i8y5rg8jbr",
     "minWidth": 120,

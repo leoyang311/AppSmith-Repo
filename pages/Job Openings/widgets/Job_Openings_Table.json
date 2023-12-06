@@ -1,6 +1,6 @@
 {
     "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-    "borderColor": "#E0DEDE",
+    "borderColor": "{{appsmith.theme.colors.backgroundColor}}",
     "isVisibleDownload": true,
     "iconSVG": "/static/media/icon.e6911f8bb94dc6c4a102a74740c41763.svg",
     "topRow": 30,
@@ -18,18 +18,28 @@
         {"key": "primaryColumns.Name.computedValue"},
         {"key": "primaryColumns.RoleDescription.computedValue"},
         {"key": "primaryColumns.JobID.computedValue"},
-        {"key": "primaryColumns.CompanyPageID.computedValue"}
+        {"key": "primaryColumns.CompanyPageID.computedValue"},
+        {"key": "borderColor"},
+        {"key": "cellBackground"},
+        {"key": "primaryColumns.GradeYearRequirement.cellBackground"},
+        {"key": "primaryColumns.Difficulty.cellBackground"},
+        {"key": "primaryColumns.RoleDescription.cellBackground"},
+        {"key": "primaryColumns.CompanyPageID.cellBackground"},
+        {"key": "primaryColumns.JobID.cellBackground"},
+        {"key": "primaryColumns.Name.cellBackground"}
     ],
     "needsHeightForContent": true,
-    "leftColumn": 12,
+    "leftColumn": 9,
     "delimiter": ",",
     "defaultSelectedRowIndex": 0,
+    "showInlineEditingOptionDropdown": true,
     "flexVerticalAlignment": "start",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
     "isVisibleFilters": true,
     "isVisible": true,
     "enableClientSideSearch": true,
     "version": 2,
+    "textColor": "#f4f4f5",
     "totalRecordsCount": 0,
     "tags": [
         "Suggested",
@@ -60,7 +70,7 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1701807161178,
+    "columnUpdatedAt": 1701836406680,
     "defaultSelectedRowIndices": [0],
     "mobileBottomRow": 53,
     "widgetName": "Job_Openings_Table",
@@ -103,6 +113,7 @@
             "isDiscardVisible": true,
             "isVisible": true,
             "label": "GradeYearRequirement",
+            "textColor": "#f4f4f5",
             "columnType": "text",
             "thousandSeparator": true,
             "horizontalAlignment": "LEFT",
@@ -113,6 +124,7 @@
             "sticky": "",
             "originalId": "GradeYearRequirement",
             "currencyCode": "USD",
+            "cellBackground": "{{appsmith.theme.colors.backgroundColor}}",
             "verticalAlignment": "CENTER"
         },
         "Difficulty": {
@@ -134,6 +146,7 @@
             "isDiscardVisible": true,
             "isVisible": true,
             "label": "Difficulty",
+            "textColor": "#f4f4f5",
             "columnType": "text",
             "thousandSeparator": true,
             "horizontalAlignment": "LEFT",
@@ -144,6 +157,7 @@
             "sticky": "",
             "originalId": "Difficulty",
             "currencyCode": "USD",
+            "cellBackground": "{{appsmith.theme.colors.backgroundColor}}",
             "verticalAlignment": "CENTER"
         },
         "RoleDescription": {
@@ -165,6 +179,7 @@
             "isDiscardVisible": true,
             "isVisible": true,
             "label": "RoleDescription",
+            "textColor": "#f4f4f5",
             "columnType": "text",
             "thousandSeparator": true,
             "horizontalAlignment": "LEFT",
@@ -175,6 +190,7 @@
             "sticky": "",
             "originalId": "RoleDescription",
             "currencyCode": "USD",
+            "cellBackground": "{{appsmith.theme.colors.backgroundColor}}",
             "verticalAlignment": "CENTER"
         },
         "CompanyPageID": {
@@ -194,10 +210,10 @@
             "allowCellWrapping": false,
             "index": 0,
             "isDiscardVisible": true,
-            "isVisible": true,
+            "isVisible": false,
             "label": "CompanyPageID",
             "fontStyle": "",
-            "textColor": "",
+            "textColor": "#f4f4f5",
             "columnType": "number",
             "thousandSeparator": true,
             "horizontalAlignment": "LEFT",
@@ -208,7 +224,7 @@
             "sticky": "",
             "originalId": "CompanyPageID",
             "currencyCode": "USD",
-            "cellBackground": "",
+            "cellBackground": "{{appsmith.theme.colors.backgroundColor}}",
             "verticalAlignment": "CENTER"
         },
         "JobID": {
@@ -228,10 +244,10 @@
             "allowCellWrapping": false,
             "index": 2,
             "isDiscardVisible": true,
-            "isVisible": true,
+            "isVisible": false,
             "label": "JobID",
             "fontStyle": "",
-            "textColor": "",
+            "textColor": "#f4f4f5",
             "columnType": "number",
             "thousandSeparator": true,
             "horizontalAlignment": "LEFT",
@@ -242,7 +258,7 @@
             "sticky": "",
             "originalId": "JobID",
             "currencyCode": "USD",
-            "cellBackground": "",
+            "cellBackground": "{{appsmith.theme.colors.backgroundColor}}",
             "verticalAlignment": "CENTER"
         },
         "Name": {
@@ -264,6 +280,7 @@
             "isDiscardVisible": true,
             "isVisible": true,
             "label": "Name",
+            "textColor": "#f4f4f5",
             "columnType": "text",
             "thousandSeparator": true,
             "horizontalAlignment": "LEFT",
@@ -274,6 +291,7 @@
             "sticky": "",
             "originalId": "Name",
             "currencyCode": "USD",
+            "cellBackground": "{{appsmith.theme.colors.backgroundColor}}",
             "verticalAlignment": "CENTER"
         }
     },
@@ -297,5 +315,6 @@
     "responsiveBehavior": "fill",
     "mobileLeftColumn": 12,
     "isVisiblePagination": true,
+    "cellBackground": "{{appsmith.theme.colors.backgroundColor}}",
     "verticalAlignment": "CENTER"
 }
